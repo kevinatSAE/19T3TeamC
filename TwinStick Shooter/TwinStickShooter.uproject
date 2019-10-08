@@ -4,14 +4,6 @@
 	"Category": "",
 	"Description": "",
 	"Enterprise": true,
-	"Modules": [
-		{
-			"Name": "TwinStickShooter",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
-		}
-	]
+	"Modules": 
+	
 }
