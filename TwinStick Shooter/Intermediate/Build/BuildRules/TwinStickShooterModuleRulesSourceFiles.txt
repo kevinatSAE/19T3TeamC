@@ -1,0 +1,3 @@
+C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Source\TwinStickShooter\TwinStickShooter.Build.cs
+C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Source\TwinStickShooter.Target.cs
+C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Source\TwinStickShooterEditor.Target.cs

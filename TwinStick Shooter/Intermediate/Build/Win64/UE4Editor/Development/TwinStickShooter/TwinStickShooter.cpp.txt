@@ -1,0 +1,2 @@
+C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\Definitions.TwinStickShooter.h
+c:\users\ktsekaiwai\documents\19t3teamc\twinstick shooter\source\twinstickshooter\TwinStickShooter.h

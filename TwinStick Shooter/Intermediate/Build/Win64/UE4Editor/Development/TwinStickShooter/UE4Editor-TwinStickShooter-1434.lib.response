@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TwinStickShooter-1434.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Intermediate\Build\Win64\TwinStickShooterEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\BaseCharacter.cpp.obj"
+"C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\TwinStickShooter.cpp.obj"
+"C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\BaseCharacter.gen.cpp.obj"
+"C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\TwinStickShooter.init.gen.cpp.obj"
+"C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\Default.rc2.res"
+/OUT:"C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\UE4Editor-TwinStickShooter-1434.lib"
+/INCLUDE:IMPLEMENT_MODULE_TwinStickShooter

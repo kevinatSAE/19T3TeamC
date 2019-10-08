@@ -1,0 +1,36 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ktsekaiwai\Documents\19T3TeamC).
+  Creating makefile for TwinStickShooterEditor (ini files are newer than makefile)
+UnrealBuildTool : warning : Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+  Parsing headers for TwinStickShooterEditor
+    Running UnrealHeaderTool "C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\TwinStickShooter.uproject" "C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Intermediate\Build\Win64\TwinStickShooterEditor\Development\TwinStickShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for TwinStickShooterEditor in 6.8559447 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Distributing 6 actions to XGE
+  --------------------Build System Warning---------------------------------------
+  License is invalid:
+      License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+      This build will run in standalone mode.
+  
+  -------------------------------------------------------------------------------
+  --------------------Project: Default-------------------------------------------
+  BaseCharacter.cpp (0:00.90 at +0:00)
+C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Source\TwinStickShooter\BaseCharacter.cpp(36): error C2039: 'CalculateHealth': is not a member of 'ABaseCharacter'
+  c:\users\ktsekaiwai\documents\19t3teamc\twinstick shooter\source\twinstickshooter\BaseCharacter.h(10): note: see declaration of 'ABaseCharacter'
+C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Source\TwinStickShooter\BaseCharacter.cpp(38): error C2065: 'Health': undeclared identifier
+C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Source\TwinStickShooter\BaseCharacter.cpp(39): error C3861: 'CalculateDead': identifier not found
+C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Source\TwinStickShooter\BaseCharacter.cpp(53): error C2065: 'FPropertyChangedEvents': undeclared identifier
+C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Source\TwinStickShooter\BaseCharacter.cpp(53): error C2065: 'PropertyChangedEvent': undeclared identifier
+C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Source\TwinStickShooter\BaseCharacter.cpp(53): error C2761: 'void ABaseCharacter::PostEditChangeProperty(FPropertyChangedEvent &)': redeclaration of member is not allowed
+C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\Source\TwinStickShooter\BaseCharacter.cpp(54): error C2448: 'ABaseCharacter::PostEditChangeProperty': function-style initializer appears to be a function definition
+  
+  Error executing C:\Program Files\Epic Games\UE_4.22\Engine\Build\Windows\cl-filter\cl-filter.exe (tool returned code: 2)
+  BaseCharacter.gen.cpp (0:01.09 at +0:00)
+  TwinStickShooter.init.gen.cpp (0:00.78 at +0:02)
+  ---------------------- Done ----------------------
+  
+      Rebuild All: 0 succeeded, 1 failed, 0 skipped
+  
+  1 build system warning(s):
+     - License is invalid
+  
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.22\Engine\Build\BatchFiles\Build.bat" TwinStickShooterEditor Win64 Development -Project="C:\Users\ktsekaiwai\Documents\19T3TeamC\TwinStick Shooter\TwinStickShooter.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TwinStickShooter.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{033E825C-6A53-4C34-A26C-7118743B9364}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TwinStickShooter.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TwinStickShooterEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{6E1062C2-E4E1-44F1-A32D-30E19D1B2BFB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TwinStickShooter">
+      <UniqueIdentifier>{C906FBB9-1C0C-40A4-8C69-B2C667359599}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TwinStickShooter\BaseCharacter.cpp">
+      <Filter>Source\TwinStickShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TwinStickShooter\BaseCharacter.h">
+      <Filter>Source\TwinStickShooter</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\TwinStickShooter\TwinStickShooter.Build.cs">
+      <Filter>Source\TwinStickShooter</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TwinStickShooter\TwinStickShooter.cpp">
+      <Filter>Source\TwinStickShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TwinStickShooter\TwinStickShooter.h">
+      <Filter>Source\TwinStickShooter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
